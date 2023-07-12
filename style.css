@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./assets/hero.jpg);
+    height: 100vh;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.left p
+{
+    color: white;
+    font-size: 40px;
+}
+.right{
+    display: flex;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
