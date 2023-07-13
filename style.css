@@ -142,9 +142,19 @@ section.ourfeatures
 }
 section.ourfeatures .feature{
     display: flex;
-
-    height: 30px;
-    width: 20px;
-    justify-content: space-between;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
     background-color: #1d20c4;
+}
+.ft1,.ft2,.ft3{
+    height: 250px;
+    width: 300px;
+    background-color: red;
+    margin: 20px 0;
+}
+.ourfeatures p{
+    color: white;
+     text-align: center;
+     font-size: 1.8rem;
 }
