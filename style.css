@@ -171,13 +171,11 @@ section.ourfeatures .feature{
 }
 section.ourservices
 {
-    height: 50vh;
     width: 100%;
     background-color: #77ec08;
 }
 section.ourservices .service{
     display: flex;
-    height: 500px;
     width: 100%;
     justify-content: space-evenly;
     background-color: #1d20c4;
@@ -194,11 +192,7 @@ section.ourservices .service{
      font-size: 1.8rem;
      font-family: poppins;
 }
-div.hero1{
-    background-image: url(./assets/hero1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    width: 100vw;
+img{
+    height: 300px;
+    width: 100%;
 }
