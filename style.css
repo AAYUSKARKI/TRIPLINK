@@ -34,10 +34,12 @@ nav{
 {
     color: white;
     font-size: 40px;
+    font-family: poppins;
 }
 .right{
     display: flex;
     color: white;
+    font-family: poppins;
 }
 ul{
     list-style: none;
@@ -50,12 +52,14 @@ li
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-family: poppins;
 }
 nav ul li a:hover
 {
 /*border-radius: 82px;*/
  background-color: white;
  color: black;
+ font-family: poppins;
 }
 .herotext
 {
@@ -65,6 +69,7 @@ nav ul li a:hover
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    font-family: poppins;
 }
 .herotext p:first-child {
     font-size: 40px;
@@ -80,6 +85,7 @@ nav ul li a:hover
     font-size: 22px;
     cursor: pointer;
     color: black;
+    font-family: poppins;
 }
 .herotext button:hover
 {
@@ -88,6 +94,7 @@ nav ul li a:hover
     font-size: 25px;
     border: 1px solid black;
     border-radius: 30px;
+    font-family: poppins;
 }
 .dropdown {
     position: absolute;
@@ -109,6 +116,7 @@ nav ul li a:hover
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: poppins;
 }
 .dropdown-content {
     display: none;
@@ -124,6 +132,7 @@ nav ul li a:hover
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-family: poppins;
 }
 
 .dropdown-content a:hover {
@@ -133,6 +142,7 @@ nav ul li a:hover
 display: block;
 background-color: antiquewhite;
 color: black;
+font-family: poppins;
 }
 section.ourfeatures
 {
@@ -157,6 +167,7 @@ section.ourfeatures .feature{
     color: white;
      text-align: center;
      font-size: 1.8rem;
+     font-family: poppins;
 }
 section.ourservices
 {
@@ -166,7 +177,7 @@ section.ourservices
 }
 section.ourservices .service{
     display: flex;
-    height: 300px;
+    height: 500px;
     width: 100%;
     justify-content: space-evenly;
     background-color: #1d20c4;
@@ -175,10 +186,19 @@ section.ourservices .service{
     height: 250px;
     width: 300px;
     background-color: red;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .ourservices p{
     color: white;
      text-align: center;
      font-size: 1.8rem;
+     font-family: poppins;
+}
+div.hero1{
+    background-image: url(./assets/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100vw;
 }
