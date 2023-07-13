@@ -56,10 +56,11 @@ nav ul li a {
 }
 nav ul li a:hover
 {
-/*border-radius: 82px;*/
+border-radius:22px;
  background-color: white;
  color: black;
  font-family: poppins;
+ border: 1px solid red;
 }
 .herotext
 {
@@ -193,6 +194,5 @@ section.ourservices .service{
      font-family: poppins;
 }
 img{
-    height: 300px;
     width: 100%;
 }
