@@ -158,3 +158,27 @@ section.ourfeatures .feature{
      text-align: center;
      font-size: 1.8rem;
 }
+section.ourservices
+{
+    height: 50vh;
+    width: 100%;
+    background-color: #77ec08;
+}
+section.ourservices .service{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #1d20c4;
+}
+.sr1,.sr2,.sr3{
+    height: 250px;
+    width: 300px;
+    background-color: red;
+    margin: 20px 0;
+}
+.ourservices p{
+    color: white;
+     text-align: center;
+     font-size: 1.8rem;
+}
