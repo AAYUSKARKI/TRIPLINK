@@ -1,7 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins);*{
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins;;
 }
 html
 {
@@ -147,7 +149,6 @@ font-family: poppins;
 }
 section.ourfeatures
 {
-    height: 50vh;
     width: 100%;
     background-color: #77ec08;
 }
@@ -196,3 +197,81 @@ section.ourservices .service{
 img{
     width: 100%;
 }
+.abtxt
+{
+    width: 100%;
+    background-color: aqua;
+}
+.abtxt p:first-child {
+    font-size: 40px;
+    margin: 15px;
+    text-align: center;
+}
+
+.abtxt p:last-child {
+    font-size: 15px;
+}
+section.contact
+{
+    background: #D9D9D9;
+}
+.contact p:first-child{
+color: #3208ec;
+text-align: center;
+}
+.contact p.txt{
+    color: #ec0826;
+    text-align: center;
+    }
+.contact p.txt1{
+        color: #ec2a08;
+        text-align: center;
+}
+.form-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .form-row {
+    margin-bottom: 20px;
+  }
+
+  .form-row label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-row input[type="text"],
+  .form-row input[type="email"],
+  .form-row textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form-row textarea {
+    height: 120px;
+  }
+  .send-btn-container {
+    text-align: center;
+  }
+
+  .send-btn-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .send-btn-container button:hover {
+    background-color: #45a049;
+  }
+     
+
