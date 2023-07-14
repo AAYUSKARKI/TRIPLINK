@@ -63,13 +63,18 @@ nav ul li a {
     text-decoration: none;
     font-family: poppins;
 }
+ul li a.active{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
 
 nav ul li a:hover {
-    border-radius: 22px;
+    border-radius: 5px;
     background-color: white;
     color: black;
     font-family: poppins;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .herotext {
