@@ -62,11 +62,13 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-family: poppins;
+    font-size: 15px;
 }
 ul li a.active{
     border-radius: 5px;
     background-color: white;
     color: black;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
@@ -74,6 +76,7 @@ nav ul li a:hover {
     background-color: white;
     color: black;
     font-family: poppins;
+    font-size: 18px;
     /* border: 1px solid red; */
 }
 
@@ -176,6 +179,15 @@ section.ourfeatures .feature {
     width: 100%;
     justify-content: space-evenly;
     background-color: #1d20c4;
+}
+.ft1{
+    background-image: url(./assets/Ellipse\ 1.jpg);
+}
+.ft2{
+    background-image: url(./assets/Ellipse\ 2.jpg);
+}
+.ft3{
+    background-image: url(./assets/Ellipse\ 3.jpg);
 }
 
 .ft1,

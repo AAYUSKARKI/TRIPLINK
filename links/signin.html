@@ -16,13 +16,13 @@
             </div>
             <div class="right">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="#">Rides</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Help</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="./links/signin.html">Sign in</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="./signup.html">Sign Up</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,15 +30,14 @@
     </header>
     <!---sign in  form section-->
 
-    <section class="signin">
+    <form class="signin">
         <h1 class="">SIGN IN</h1>
             <h2 class="heading">Email</h2>
-            <input class="input" type="text" placeholder=" Enter Your email">
+            <input class="input" type="email" placeholder=" Enter Your email" required>
             <h2 class="heading">Password</h2>
-            <input class="input" type="text" placeholder="Enter yourpassword">
-        <button class="sign_btn">signin</button>
-        <p>Dont have an account ? <a href="#">sign up here</a></p>
-    </section>
-    
+            <input class="input" type="password" placeholder="Enter your password" required>
+        <button type="submit" class="sign_btn">signin</button>
+        <p>Dont have an account ? <a href="./signup.html">sign up here</a></p>
+    </form>
 </body>
 </html>
