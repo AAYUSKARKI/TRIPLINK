@@ -182,12 +182,15 @@ section.ourfeatures .feature {
 }
 .ft1{
     background-image: url(./assets/Ellipse\ 1.jpg);
+    background-repeat: no-repeat;
 }
 .ft2{
     background-image: url(./assets/Ellipse\ 2.jpg);
+    background-repeat: no-repeat;
 }
 .ft3{
     background-image: url(./assets/Ellipse\ 3.jpg);
+    background-repeat: no-repeat;
 }
 
 .ft1,
