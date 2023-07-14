@@ -168,37 +168,49 @@ nav ul li a:hover {
     font-family: poppins;
 }
 
-section.ourfeatures {
+section.ourfeatures{
+    background-color: #EEE1E1;
     width: 100%;
-    background-color: #77ec08;
 }
 
 section.ourfeatures .feature {
     display: flex;
-    height: 300px;
-    width: 100%;
     justify-content: space-evenly;
-    background-color: #1d20c4;
 }
-.ft1{
-    background-image: url(./assets/Ellipse\ 1.jpg);
-    background-repeat: no-repeat;
+.feature div p{
+color: #010101;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
 }
-.ft2{
-    background-image: url(./assets/Ellipse\ 2.jpg);
-    background-repeat: no-repeat;
+.feature div p:last-child{
+    padding: 12px 0;
+    color: #010101;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    }
+.feature div img
+{
+border-radius: 50%;
+width: 175px;
+height: 142px;
+margin: 0 60px;
 }
-.ft3{
-    background-image: url(./assets/Ellipse\ 3.jpg);
-    background-repeat: no-repeat;
-}
+
 
 .ft1,
 .ft2,
 .ft3 {
     height: 250px;
     width: 300px;
-    background-color: red;
+    background-color: #f9f9f9;
     margin: 20px 0;
 }
 
@@ -211,14 +223,12 @@ section.ourfeatures .feature {
 
 section.ourservices {
     width: 100%;
-    background-color: #77ec08;
+    background-color: #EC5500;
 }
 
 section.ourservices .service {
     display: flex;
-    width: 100%;
     justify-content: space-evenly;
-    background-color: #1d20c4;
 }
 
 .sr1,
