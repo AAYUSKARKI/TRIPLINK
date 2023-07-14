@@ -39,13 +39,16 @@ li {
 nav ul li a {
     color: white;
     text-decoration: none;
+
+    padding: 5px;
+    border-radius: 8px;
     font-family: poppins;
 }
 
 nav ul li a:hover {
-    border-radius: 22px;
+    
     background-color: white;
     color: black;
     font-family: poppins;
-    border: 1px solid red;
+ 
 }
