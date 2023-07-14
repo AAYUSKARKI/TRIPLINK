@@ -235,10 +235,36 @@ section.ourservices .service {
 .sr2,
 .sr3 {
     height: 250px;
-    width: 300px;
-    background-color: red;
+    width: 300px; 
+    /* background-color: red; */
     margin: 40px 0;
 }
+.service div p{
+    color: #010101;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    }
+    .service div p:last-child{
+        padding: 12px 0;
+        color: #010101;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        }
+    .service div img
+    {
+    /* border-radius: 50%; */
+    width: 175px;
+    height: 142px;
+    margin: 0 60px;
+    }
 
 .ourservices p {
     color: white;
