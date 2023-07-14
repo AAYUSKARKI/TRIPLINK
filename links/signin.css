@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*--- form section css--*/
+.signin{
+    background-color: aqua;
+    height: 95vh;
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.input{
+    width: 80%;
+    height: 40px;
+    margin: 2rem;
+    
+}
+.signin h1{
+    margin-bottom: 4rem;
+    font-size: 30px;
+}
+.signin .heading{
+    color: rgb(35, 34, 34);
+
+}
+.signin button{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: larger;
+    color: white;
+    background-color: chocolate;
+    margin-bottom: 20px;
+}.signin p{
+    font-size: 15px;
+}
+.signin p a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.signin button:hover{
+    background-color: orange;
+}
+
