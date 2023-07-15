@@ -73,7 +73,7 @@ nav ul li a:hover {
 }
 /*--- form section css--*/
 .signin{
-    background-color: aqua;
+   background: url(images/sign\ in\ bg.jpg);
     height: 95vh;
    display: flex;
    flex-direction: column;
