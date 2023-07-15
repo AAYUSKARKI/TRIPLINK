@@ -21,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
 }
@@ -70,4 +70,21 @@ nav ul li a:hover {
     font-family: poppins;
     font-size: 18px;
     /* border: 1px solid red; */
+}
+h1
+{
+    color: #000;
+font-family: poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/* text-align: center; */
+}
+.txt{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 64px;
+background-color: #21E9B9;
 }
