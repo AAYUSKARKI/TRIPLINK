@@ -21,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
 }
@@ -70,4 +70,34 @@ nav ul li a:hover {
     font-family: poppins;
     font-size: 18px;
     /* border: 1px solid red; */
+}
+.reviewtxt p
+{
+    color: black;
+}
+div.reviews
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* background-color: aqua; */
+}
+div.reviews .review
+{
+    width: 559px;
+    height: 349px;
+  background-color: #D9D9D9;
+margin: 20px auto;
+}
+div.reviews .review img
+{
+    width: 221px;
+height: 117px;
+    margin: 15px 169px;
+    border-radius: 44px;
+}
+.reviewtxt{
+    text-align: center;
+}
+p{
+    text-align: center;
 }

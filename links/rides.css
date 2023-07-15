@@ -78,12 +78,21 @@ div.rides
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 div.rides .rider
 {
     width: 615px;
 height: 486px;
-  background-color: black;
-    margin: 20px auto;
+  background-color: #D9D9D9;
+margin: 20px auto;
+}
+div.rides .rider img
+{
+    width: 423px;
+    height: 248px;
+    margin: 9px 96px;
+}
+.ridetxt{
+    text-align: center;
 }
