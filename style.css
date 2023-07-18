@@ -437,13 +437,13 @@ background-image: url(./assets/hero.jpg);
         }
         25%
         {
-            background-image: url(./assets/bg1.jpg);
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/389/359/732/night-lights-street-nissan-wallpaper-preview.jpg);
         }
         75%
         {
-            background-image: url(./assets/bg2.jpg);
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/187/593/64/2018-bikes-husqvarna-vitpilen-701-4k-wallpaper-preview.jpg);
         }
         100%{
-            background-image: url(./assets/hero.jpg);
+            background-image: url(https://c0.wallpaperflare.com/preview/594/261/238/alley-lantern-light-street.jpg);
         }  
     }

@@ -119,17 +119,20 @@ form{
     align-items: center; */
     flex-direction: column;
 }
-.image
+.imageslider
 {
     display:flex;
-    height: 1000px;
-    width: 1280x;
     overflow: hidden;
 }
-img{
-    height: 100%;
+.imageslider .item{
     width: 100%;
-    animation: bgrotate 6s ease-in 2s infinite;
+    position: absolute;
+    animation: bgrotate 3s linear infinite;
+    opacity: 0;
+}
+.imageslider .item img{
+    height: auto;
+    width: 100%;
 }
 @keyframes rotate {
     from{
@@ -140,10 +143,16 @@ img{
     }
 }
 @keyframes bgrotate {
-    from{
-transform: translate(-100%);
-    }
-    to{
-        transform: translate(-200%); 
-    }
+   0%{
+opacity: 0;
+transform: translate(100%);  
+ }
+   10%,90%{
+    opacity: 1;
+    transform: translate(0%);
+   }
+   100%{
+    opacity: 0;
+    transform: translate(-100%);
+   }
 }
