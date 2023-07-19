@@ -1,9 +1,10 @@
-const items = document.querySelectorAll(.item)
+const items = document.querySelectorAll('.item');
 let currentindex=0;
 function shownext(){
-    items[currentindex].classlist.remove('.active');
+    items[currentindex].classList.remove('active');
     currentindex=(currentindex+1)%items.length;
-    items[currentindex].classlist.remove('.active');
+    items[currentindex].classList.add('active');
 }
 setInterval(shownext,3000);
-console.log("aayus");
+let a=10;
+console.log(a);
