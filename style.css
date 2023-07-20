@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
-
+/* 0818b83e0b90ab1e7b053d86806fccda */
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +13,10 @@ html {
 }
 
  header {
-
     text-align: center;
     font-size: 60px;
     text-justify: inter-cluster;
-    
-    /* background-image: url(./assets/hero.jpg);
+    background-image: url(./assets/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,8 +25,9 @@ html {
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: bgchange 15s ease-in 5s infinite; */
+    animation: bgchange 15s ease-in 5s infinite;
 } 
+
 
 nav {
     height: 60px;
@@ -38,7 +37,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -58,10 +57,12 @@ nav {
 ul {
     list-style: none;
     display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 li {
-    margin-left: 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -69,23 +70,23 @@ nav ul li a {
     text-decoration: none;
     font-family: poppins;
     font-size: 15px;
+    padding: 0 15px;
 }
 ul li a.active{
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: white;
     color: black;
     font-size: 18px;
 }
 
 nav ul li a:hover {
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: white;
     color: black;
     font-family: poppins;
     font-size: 18px;
     /* border: 1px solid red; */
 }
-
 .herotext {
     position: absolute;
     top: 50%;
