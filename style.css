@@ -12,8 +12,13 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    background-image: url(./assets/hero.jpg);
+ header {
+
+    text-align: center;
+    font-size: 60px;
+    text-justify: inter-cluster;
+    
+    /* background-image: url(./assets/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,8 +27,8 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: bgchange 15s ease-in 5s infinite;
-}
+    animation: bgchange 15s ease-in 5s infinite; */
+} 
 
 nav {
     height: 60px;
