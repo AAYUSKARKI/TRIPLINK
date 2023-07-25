@@ -49,6 +49,7 @@ nav {
 
 .right {
     display: flex;
+    align-items: center;
     color: white;
     font-family: poppins;
 }
